@@ -20,7 +20,9 @@ public class Spawner : MonoBehaviour
         {
             Instantiate (pipePrefab);
             lastSpawnTime = Time.time;
+
         }
+        
 
     }
 }
